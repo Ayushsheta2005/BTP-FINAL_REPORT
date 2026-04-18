@@ -62,10 +62,11 @@ By comparing the average trait scores of users who converted (`BUY`) versus thos
 ## 📊 5. Visual Dashboard Highlights (Reference Guide)
 
 *   **`06_auction_economics.png`:** The scatterplot perfectly tracks below the $Y=X$ line, visually proving that no click was charged above its bid threshold.
-    ![Auction Economics](../../results/plots/exp1_vcg_5000/06_bid_vs_price_paid.png)
+    ![Auction Economics](./plots/06_bid_vs_price_paid.png)
 *   **`04_trait_correlation_heatmap.png`:** Validates the Trait Diff table above in dense spatial mapping.
-    ![Trait Correlation Heatmap](../../results/plots/exp1_vcg_5000/04_trait_correlation_heatmap.png)
+    ![Trait Correlation Heatmap](./plots/04_trait_correlation_heatmap.png)
 *   **`01_verdict_distribution.png`:** Shows the `3.02%` overall BUY rate, which is an ideal baseline for A/B testing persona-aware lift later.
-    ![Verdict Distribution](../../results/plots/exp1_vcg_5000/01_verdict_distribution.png)
+    ![Verdict Distribution](./plots/01_verdict_distribution.png)
+    
 
 **Conclusion:** The pipeline logic (Softmax selection, threshold bounding, and relevance clipping) is mathematically sound. Data integrity is confirmed for the core VCG mechanism. You are cleared to proceed with Persona-Aware testing once the EC2 index is purged of ghost items.
